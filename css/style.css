@@ -1,0 +1,320 @@
+@font-face {
+	src: url('../fonts/SFProDisplay-Heavy.ttf');
+	font-family: sfh
+}
+
+@font-face {
+	src: url('../fonts/SFProDisplay-Bold.ttf');
+	font-family: sfb
+}
+
+@font-face {
+	src: url('../fonts/SFProDisplay-Semibold.ttf');
+	font-family: sfs
+}
+
+@font-face {
+	src: url('../fonts/SFProDisplay-Regular.ttf');
+	font-family: sfr
+}
+
+@font-face {
+	src: url('../fonts/SFProDisplay-Light.ttf');
+	font-family: sfl
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	display: inline;
+}
+
+a {
+	text-decoration: none
+}
+
+hr {
+	width: 90%;
+	height: 3px;
+	margin-left: 30px;
+	margin-top: 10px;
+	border: none;
+	background-color: #007EE5;
+}
+
+h1 {
+	font-family: sfb;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-top: 20px;
+	color: #007EE5;
+}
+
+h2 {
+	font-family: sfs;
+	font-size: 25px;
+	text-align: center;
+}
+
+h3 {
+	font-family: sfr;
+	font-size: 20px;
+	text-align: center;
+}
+
+h4 {
+	font-family: sfr;
+	font-size: 17px;
+	text-align: center;
+}
+
+p {
+	font-family: sfl;
+	font-size: 14px;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.fd-row {
+	flex-direction: row;
+}
+
+.fd-col {
+	flex-direction: column;
+}
+
+.f-col {
+	flex-flow: column wrap;
+}
+
+.f-row {
+	flex-flow: row wrap
+}
+
+.j-btw {
+	justify-content: space-between;
+}
+
+.j-ard {
+	justify-content: space-around;
+}
+
+.j-ctr {
+	justify-content: center;
+}
+
+.j-end {
+	justify-content: flex-end;
+}
+
+.i-ctr {
+	align-items: center;
+}
+
+.i-str {
+	align-items: flex-start;
+}
+
+.i-end {
+	align-items: flex-end;
+}
+
+.wrapper {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+.max-content {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.md12 {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.sm12 {
+		width: 100%;
+	}
+}
+
+#edit {
+	background-color: blue;
+	color: #FFF;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+#delete {
+	background-color: red;
+	color: #FFF;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.left {
+	flex-grow: 2;
+	height: 100vh;
+	background-image: url(../img/volt.png);
+	background-size: cover;
+	background-position: right;
+}
+
+.right {
+	flex-grow: 1;
+	height: 100vh;
+}
+
+.form-group {
+	width: 50%;
+	margin: 30px auto;
+}
+
+.form-group label {
+	font-family: rm;
+	color: #007EE5;
+	font-size: 20px;
+	letter-spacing: .3px;
+}
+
+.form-group input {
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 2px solid #007EE5;
+	margin-top: 10px;
+	outline: none;
+	font-family: rm;
+	letter-spacing: .3px;
+}
+
+.button-login {
+	width: 50%;
+	margin: 30px auto;
+}
+
+.button-login input {
+	width: 100%;
+	padding: 10px;
+	color: #FFF;
+	background-color: #007EE5;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	font-family: rb;
+	letter-spacing: 1px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.bg-menu {
+	position: fixed;
+	width: 200px;
+	height: 100vh;
+	background-color: #000
+}
+
+.menu {
+	width: 100%;
+}
+
+.menu ul {
+	width: 100%;
+}
+
+.menu .labelmenu {
+	color: #FFF;
+	padding-left: 15px;
+	padding-top: 15px;
+	font-family: sfb;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	opacity: .5;
+}
+
+.menu ul li {
+	margin: 10px;
+	width: 90%;
+}
+
+.menu li a {
+	border-radius: 3px;
+	padding: 10px;
+	padding-left: 15px;
+	color: #fff;
+	display: block;
+	font-family: sfs;
+	letter-spacing: 1px;
+	transition: .5s;
+}
+
+.menu ul li a:hover {
+	background-color: #007EE5;
+}
+
+.menu .logout:hover {
+	background-color: red;
+}
+
+.bg-main {
+	margin-left: 200px;
+	width: 100%;
+	height: 100vh;
+}
+
+.main .add {
+	margin-right: 20px;
+	margin-top: 10px;
+	color: #FFF;
+	background-color: #007EE5;
+	padding: 10px 15px;
+	border-radius: 3px;
+	font-family: sfs;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+
+.main table {
+	margin-left: 20px;
+	width: 120%
+}
+
+.main .payment {
+	width: 95%;
+}
+
+.main table tr th {
+	padding: 0 10px;
+	background-color: #007EE5;
+	padding: 10px;
+	color: #FFF;
+}
+
+.main table tr td {
+	padding: 10px 20px;
+}
+
+.main table tr:nth-child(odd) {
+	background-color: #8BC1FF;
+}
+
+.main table tr:nth-child(even) {
+	background-color: #FFF;
+}

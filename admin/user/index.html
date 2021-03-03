@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User - Globaliti Listrik</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="icon" href="../../img/smkti.png">
+    <style>
+        .menu .labelcust {
+            background-color: #007EE5;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="bg-header d-flex">
+            <div class="bg-menu">
+                <div class="menu">
+                    <ul class="d-flex f-col">
+                        <div style="margin: 0 auto">
+                            <img src="../../img/smkti.png" style="width:100px;">
+                        </div>
+                        <li class="labelmenu">Menu</li>
+                        <li><a href="../customer/index.html">Customers</a></li>
+                        <li><a href="../bill/index.html">Bill</a></li>
+                        <li><a href="../payment/index.html">Payment</a></li>
+                        <li><a href="../rate/index.html">Rate</a></li>
+                        <li class="labelcust"><a href="../user/index.html">Users</a></li>
+                        <li><a href="../../login.html" class="logout">Logout</a></li>
+                    </ul>
+                </div>
+            </div><!-- bg-menu -->
+            <div class="bg-main">
+                <div class="main">
+                    <h1>User</h1>
+                    <hr>
+                    <div style="width: 95%" class="d-flex j-end">
+                        <a class="add" href="#">Add User +</a>
+                    </div>
+                    <div style="overflow-x:auto; margin: 40px auto">
+                        <table class="payment" border="0" style="border-collapse: collapse">
+                            <tr>
+                                <th>No</th>
+                                <th>Code</th>
+                                <th>Username</th>
+                                <th>Full Name</th>
+                                <th>Level</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr style="text-align:center;">
+                                <td>1</td>
+                                <td>10</td>
+                                <td>decode</td>
+                                <td>Decode.id</td>
+                                <td>Admin</td>
+                                <td>
+                                    <a href="#" id="edit">Edit</a>
+                                    <a href="#" id="delete">Delete</a>
+                                </td>
+                            </tr>
+                            <tr style="text-align:center;">
+                                <td>2</td>
+                                <td>21</td>
+                                <td>ginol</td>
+                                <td>Gede Ginsky </td>
+                                <td>Petugas</td>
+                                <td>
+                                    <a href="#" id="edit">Edit</a>
+                                    <a href="#" id="delete">Delete</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div><!-- main -->
+            </div><!-- bg-main -->
+        </div><!-- bg-header -->
+    </div><!-- wrapper -->
+</body>
+
+</html>
